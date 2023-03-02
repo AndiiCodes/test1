@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html , body{
+  overflow-x: hidden !important;
+  margin:0 !important;
+    padding:0 !important;
+  
+}
+body {
+  margin:0 !important;
+    padding:0 !important;
+  background-color: #031421;
+  
+  
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg{
+  background-color: #031421;
+  color: white;
+}
+
+.bg2{
+  width: 80%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: red;
+}
+
+.test1{
+  
+  background-color: red;
+  width: 80%;  
+  height: 1000px;
+  margin: auto auto;
+}
+/* 
+
+.test{
+  display: flex;
+  
+ 
+} */
+
+/* .img{
+  width: 33rem;
+} */
+
+.y{
+  left: 55%;
+}
+
+.t{
+  
+}
+
+.x{
+  width:100px;
+}
+
+@media  (max-width:700px){
+  .t{
+    line-height: 2rem !important;
+  }
+
+  
+}
+
+.txt{
+  color: white;
+}
+
+.txt:hover{
+  color: orange !important;
+}
+
+
+
+.icons{
+  color: aqua !important;  
+}
+
+
+.left-arrow2{
+  color: white !important;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  border: 1px solid white;
+  background-color: #0314213d;
+  
+  padding-bottom: 10px;
+  border-radius: 50%;
+
+}
+.left-arrow2:hover{
+  background-color: black;
+  opacity: .5;
+  
+}
+
+.right-arrow2{
+  color: white !important;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  border: 1px solid white;
+  background-color: #0314213d;
+  
+  padding-bottom: 10px;
+  border-radius: 50%;
+
+}
+.right-arrow2:hover{
+  background-color: black;
+  opacity: .5;
+  
+}
+
+.btn{
+  background-color: #be8a59 !important;
+}
+
+.btn:hover{
+  background-color: #313e44 !important;
+}
+
+@media (min-width: 281px) {
+  .max-w-xs {
+  max-width: 281px;
+  }
+}
+
+.imgss{
+  transform: translateY(0px) translateZ(0px) !important;
+}
+
+
+.gallery-image-container {
+  overflow: hidden !important;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1) !important;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Set the wrapper div to take up the full height of the viewport */
+/* #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+} */
+
+/* Push the footer to the bottom of the content area */
+
+.con {
+  width: 100% !important;
+  position:absolute;
+ 
+}
+footer {
+  
+  position: absolute;
+  bottom: 0 !important;
+  right: 0;
+  left: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.red-asterisk::before {
+  content: "*";
+  color: red;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+}
