@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router , Route , Routes } from "react-router-dom";
+import { HashRouter as Router , Route , Routes } from "react-router-dom";
 import Contact from "./pages/Contact"
 import Links from "./pages/Links"
 import Header from "./components/Header"
@@ -276,12 +276,12 @@ export default function App() {
     <Router>
     <Header />
       <Routes>
-      <Route path="/" exact  element={<Home />} ></Route>
-      <Route path="/contact" exact  element={<Contact />}></Route>
-      <Route path="/about" exact  element={<About />}></Route>
-      <Route path="/links" exact  element={<Links />}></Route>
+      <Route path="manogawra" exact  element={<Home />} ></Route>
+      <Route path="manogawra/contact" exact  element={<Contact />}></Route>
+      <Route path="manogawra/about" exact  element={<About />}></Route>
+      <Route path="manogawra/links" exact  element={<Links />}></Route>
       <Route
-            path="/gallery"
+            path="manogawra/gallery"
             exact
             element={
               <>
