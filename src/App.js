@@ -276,13 +276,13 @@ export default function App() {
     <Router>
     <Header />
       <Routes>
-      <Route path="manogawra/" exact  element={<Home />} ></Route>
-      <Route path="manogawra/contact" exact  element={<Contact />}></Route>
-      <Route path="manogawra/about" exact  element={<About />}></Route>
-      <Route path="manogawra/links" exact  element={<Links />}></Route>
+      <Route path="manogawra/"   element={<Home />} ></Route>
+      <Route path="manogawra/contact"   element={<Contact />}></Route>
+      <Route path="manogawra/about"   element={<About />}></Route>
+      <Route path="manogawra/links"   element={<Links />}></Route>
       <Route
             path="/gallery"
-            exact
+            
             element={
               <>
               <span className="">
