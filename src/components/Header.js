@@ -36,13 +36,13 @@ export default function Header() {
     >
       Home
     </Navbar.Link >
-    <Navbar.Link className='txt' to="/about">
+    <Navbar.Link className='txt' href="/about">
       About
     </Navbar.Link>
     <Navbar.Link className='txt' href="/gallery">
       Gallery
     </Navbar.Link>
-<Link className='txt' to={"/about"}>about</Link>
+
     <Navbar.Link className='txt' href="/Links">
       Links
     </Navbar.Link>
