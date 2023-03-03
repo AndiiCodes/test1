@@ -36,7 +36,7 @@ export default function Header() {
     >
       Home
     </Navbar.Link >
-    <Navbar.Link className='txt' href="/about">
+    <Navbar.Link className='txt' href="/#/about">
       About
     </Navbar.Link>
     <Navbar.Link className='txt' href="/gallery">
