@@ -276,13 +276,13 @@ export default function App() {
     <Router >
     <Header />
       <Routes>
-      <Route  path="/" exact   element={<Home />} ></Route>
-      <Route  path="/contact" exact   element={<Contact />}></Route>
-      <Route  path="/about" exact   element={<About />}></Route>
-      <Route  path="/links" exact   element={<Links />}></Route>
+      <Route  path="/"    element={<Home />} ></Route>
+      <Route  path="/contact"    element={<Contact />}></Route>
+      <Route  path="/about"    element={<About />}></Route>
+      <Route  path="/links"    element={<Links />}></Route>
       <Route
             path="/gallery"
-            exact
+            
             element={
               <>
               <span className="">
