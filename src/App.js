@@ -278,7 +278,7 @@ export default function App() {
       <Routes>
       <Route  path="/"    element={<Home />} ></Route>
       <Route  path="/contact"    element={<Contact />}></Route>
-      <Route  path={`${process.env.PUBLIC_URL}/about`}    element={<About />}></Route>
+      <Route  path="/#/about"    element={<About />}></Route>
       <Route  path="/links"    element={<Links />}></Route>
       <Route
             path="/gallery"
