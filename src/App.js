@@ -276,13 +276,13 @@ export default function App() {
     <Router >
     <Header />
       <Routes>
-      <Route  path={`${process.env.PUBLIC_URL}/`}   element={<Home />} ></Route>
+      <Route  path="/" exact   element={<Home />} ></Route>
       <Route  path="/contact" exact   element={<Contact />}></Route>
-      <Route  path={`${process.env.PUBLIC_URL}/about`}   element={<About />}></Route>
-      <Route  path={`${process.env.PUBLIC_URL}/links`}   element={<Links />}></Route>
+      <Route  path="/about" exact   element={<About />}></Route>
+      <Route  path="links" exact   element={<Links />}></Route>
       <Route
-            path="manogawra/gallery"
-            
+            path="/gallery"
+            exact
             element={
               <>
               <span className="">
