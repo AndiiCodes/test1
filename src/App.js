@@ -273,7 +273,7 @@ export default function App() {
   return (
     <>
       
-    <Router  basename="/manogawra">
+    <Router >
     <Header />
       <Routes>
       <Route  path={`${process.env.PUBLIC_URL}/`}   element={<Home />} ></Route>
