@@ -279,7 +279,7 @@ export default function App() {
       <Route  path="/" exact   element={<Home />} ></Route>
       <Route  path="/contact" exact   element={<Contact />}></Route>
       <Route  path="/about" exact   element={<About />}></Route>
-      <Route  path="links" exact   element={<Links />}></Route>
+      <Route  path="/links" exact   element={<Links />}></Route>
       <Route
             path="/gallery"
             exact
