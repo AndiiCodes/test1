@@ -21,7 +21,7 @@ export default function Header() {
   <div className="flex md:order-2">
   <Link to={"/contact"}>
 
-    <Button className=' hidden sm:block hover:bg-[#2b5c42] text-white font-bold font-["poppins"] btn  '>
+    <Button className=' hidden sm:block hover:bg-[#214029] text-white font-bold font-["poppins"] btn  '>
       Contact
     </Button>
   </Link>
