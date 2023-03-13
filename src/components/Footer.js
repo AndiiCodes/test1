@@ -44,7 +44,7 @@ import "../index.css";
 export default function Footer() {
   return (
     <div className='h-[50%] sm:h-[65%] con'>
-      <footer class="p-4 bg-[#061a29] shadow text-center md:flex md:items-center md:justify-center md:p-6 dark:bg-gray-800 flex-1">
+      <footer class="p-4 bg-[#2f4340] shadow text-center md:flex md:items-center md:justify-center md:p-6 dark:bg-gray-800 flex-1">
       <div className='flex flex-col items-center'>
 
         <span class="text-sm    text-white sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">ManooGawra</a>. All Rights Reserved. 
