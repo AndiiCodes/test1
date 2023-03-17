@@ -107,7 +107,7 @@ I create head-turning photographs that do the<br class="hidden md:block" />
 right thing, in the right place, at the right<br class="hidden md:block" />
 time to unlock the possibility.
           </p>
-        </span>
+
       </div>
       <Gallery />
     </div>
