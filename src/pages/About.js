@@ -24,11 +24,7 @@ In addition to my design work, I am also an avid photographer. I am passionate a
       </div>
       
     </div>
-//     <div className='mt-[3rem] sm:px-[0%] px-[10%]'>
 
-//     <h1 className='text-white font-medium sm:text-6xl md:text-4xl text-3xl py-[2rem] font-poppins text-justify'>Hi there!</h1>
-//         <p className='text-white sm:text-2xl md:text-xl text-lg font-light font-poppins'>Lorem ipsum dolor sit amet, consectetur <br /> adipisicing elit. Molestias iste voluptatum similique iusto harum, <br /> temporibus necessitatibus sequi dolor incidunt laudantium!</p>
-//     </div>
   </div>
   
   
