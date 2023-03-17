@@ -107,13 +107,10 @@ export default function Home() {
         </h1>
         <span>
           <p className="text-white xl:text-xl xl:relative xl:left-[40rem] font-['os'] xl:-top-[30rem] lg:relative lg:left-[30rem] lg:-top-[25rem] sm:block lg:text-justify sm:relative sm:text-center text-center sm:left-auto font-light break-words 2xl:static 2xl:text-center 2xl:mt-[5rem] 2xl:text-3xl">
-            From inspiring people's stories to impactful messages,
-            <br className="hidden md:block" />
-            I create head-turning photographs that do the
-            <br className="hidden md:block" />
-            right thing, in the right place, at the right
-            <br className="hidden md:block" />
-            time to unlock the possibility.
+            From inspiring people's stories to impactful messages,<br class="hidden md:block" />
+I create head-turning photographs that do the<br class="hidden md:block" />
+right thing, in the right place, at the right<br class="hidden md:block" />
+time to unlock the possibility.
           </p>
         </span>
       </div>
