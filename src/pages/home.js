@@ -98,11 +98,11 @@ export default function Home() {
           className="lg:relative text-white sm:flex sm:justify-center lg:text-[3.5rem] lg:bottom-[30rem] lg:left-[10%] xl:bottom-[35rem] xl:left-[10%] left-24 lg:py-0 font-bold py-8 text-center text-3xl lg:leading-[3rem] 2xl:static 2xl:text-7xl 2xl:mt-[2rem]"
         >
           <span>
-            Photography  
+            Photography &nbsp;  
             <br className="hidden lg:block" /> 
-               helps people
+             &nbsp; helps people
             <br className="hidden lg:block" /> 
-            to see.
+            &nbsp; to see.
           </span>
         </h1>
         <span>
