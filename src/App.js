@@ -288,7 +288,7 @@ export default function App() {
               <span className="">
                 
                   <h1 className="text-4xl font-bold mb-2 text-center sm:text-left sm:ml-[50px] mt-[50px]  text-white">Gallery 🖼</h1>
-                  <p className="text-xl font-light mb-8 text-center sm:text-left px-[20px] sm:mx-[50px]  text-white">Our gallery page showcases stunning photography of Baked and Italian Taste restaurants in Piccadilly. From the mouthwatering dishes to the cozy ambiance, our photos capture every detail of the dining experience. Baked offers freshly baked goods, while Italian Taste serves authentic Italian cuisine in a stylish setting. Come and experience the culinary delights for yourself!.</p>
+                  <p className="text-xl font-light mb-8 text-center sm:text-left px-[20px] sm:mx-[50px]  text-white">View stunning photos of Baked, Italian Taste and Piccadilly restaurants on our gallery page. Experience the mouthwatering dishes and cozy ambiance for yourself!</p>
               </span>
                 <GalleryPage images={Pica} restaurant="🥘 Piccadilly" />
                 <GalleryPage images={ItalianTaste} restaurant="🇮🇹 Italian Taste" />
