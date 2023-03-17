@@ -100,8 +100,8 @@ export default function Home() {
           <span>
             Photography
             <br className="hidden lg:block" />
-            helps people
-            <br className="md:hidden lg:block" />
+             helps people
+            <br className="hidden lg:block" />
             to see.
           </span>
         </h1>
