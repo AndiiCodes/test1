@@ -161,54 +161,6 @@ export default function App() {
         src: 'https://i.ibb.co/d5jSwrV/img-37.jpg',
         alt: 'pic',
       },
-     {
-      src: 'https://i.ibb.co/wC4bwV0/img-13-min.jpg',
-      alt: 'itl'
-    },
-    {
-      src: 'https://i.ibb.co/z63vnbW/img-14-min.jpg',
-      alt: 'img14'
-    },
-    {
-      src: 'https://i.ibb.co/KxrGvtD/img-15-min.jpg',
-      alt: 'img15'
-    },
-    {
-      src: 'https://i.ibb.co/xDWfJPM/img-16-min.jpg',
-      alt: 'img16'
-    },
-    {
-      src: 'https://i.ibb.co/xjVq61v/img-17-min.jpg',
-      alt: 'img17'
-    },
-    {
-      src: 'https://i.ibb.co/tzLvTb0/img-18-min.jpg',
-      alt: 'img18'
-    },
-    {
-      src: 'https://i.ibb.co/RPdwm8s/img-19-min.jpg',
-      alt: 'img19'
-    },
-    {
-      src: 'https://i.ibb.co/2YvmcW5/img-20-min.jpg',
-      alt: 'img20'
-    },
-    {
-      src: 'https://i.ibb.co/m9rm2pw/img-21-min.jpg',
-      alt: 'img21'
-    },
-    {
-      src: 'https://i.ibb.co/7V2wfvW/img-22-min.jpg',
-      alt: 'img22'
-    },
-    {
-      src: 'https://i.ibb.co/LZkxgbh/img-23-min.jpg',
-      alt: 'img23'
-    },
-    {
-      src: 'https://i.ibb.co/3BSJtHg/img-24-min.jpg',
-      alt: 'Baked',
-    },
       
     
     
@@ -265,54 +217,6 @@ export default function App() {
         src: 'https://i.ibb.co/1d3ZCG2/img-36.jpg',
         alt: 'itln',
       },
-    {
-      src: 'https://i.ibb.co/wC4bwV0/img-13-min.jpg',
-      alt: 'itl'
-    },
-    {
-      src: 'https://i.ibb.co/z63vnbW/img-14-min.jpg',
-      alt: 'img14'
-    },
-    {
-      src: 'https://i.ibb.co/KxrGvtD/img-15-min.jpg',
-      alt: 'img15'
-    },
-    {
-      src: 'https://i.ibb.co/xDWfJPM/img-16-min.jpg',
-      alt: 'img16'
-    },
-    {
-      src: 'https://i.ibb.co/xjVq61v/img-17-min.jpg',
-      alt: 'img17'
-    },
-    {
-      src: 'https://i.ibb.co/tzLvTb0/img-18-min.jpg',
-      alt: 'img18'
-    },
-    {
-      src: 'https://i.ibb.co/RPdwm8s/img-19-min.jpg',
-      alt: 'img19'
-    },
-    {
-      src: 'https://i.ibb.co/2YvmcW5/img-20-min.jpg',
-      alt: 'img20'
-    },
-    {
-      src: 'https://i.ibb.co/m9rm2pw/img-21-min.jpg',
-      alt: 'img21'
-    },
-    {
-      src: 'https://i.ibb.co/7V2wfvW/img-22-min.jpg',
-      alt: 'img22'
-    },
-    {
-      src: 'https://i.ibb.co/LZkxgbh/img-23-min.jpg',
-      alt: 'img23'
-    },
-    {
-      src: 'https://i.ibb.co/3BSJtHg/img-24-min.jpg',
-      alt: 'Baked',
-    },
   ];
 
   const Baked=[
@@ -369,25 +273,26 @@ export default function App() {
   return (
     <>
       
-    <Router >
+    <Router>
     <Header />
       <Routes>
-      <Route  path="/"    element={<Home />} ></Route>
-      <Route  path="/contact"    element={<Contact />}></Route>
-      <Route  path="/about"    element={<About />}></Route>
-      <Route  path="/links"    element={<Links />}></Route>
+      <Route path="/" exact  element={<Home />} ></Route>
+      <Route path="/contact" exact  element={<Contact />}></Route>
+      <Route path="/about" exact  element={<About />}></Route>
+      <Route path="/links" exact  element={<Links />}></Route>
       <Route
             path="/gallery"
-            
+            exact
             element={
               <>
               <span className="">
                 
                   <h1 className="text-4xl font-bold mb-2 text-center sm:text-left sm:ml-[50px] mt-[50px]  text-white">Gallery 🖼</h1>
-                  <p className="text-xl font-light mb-8 text-center sm:text-left px-[20px] sm:mx-[50px]  text-white">View stunning photos of Baked, Italian Taste and Piccadilly restaurants on our gallery page. Experience the mouthwatering dishes and cozy ambiance for yourself!</p>
+                  <p className="text-xl font-light mb-8 text-center sm:text-left sm:ml-[50px] text-white">Lorem ipsum dolor sit amet consectetur.</p>
               </span>
-                <GalleryPage images={Pica} restaurant="" />
-                
+                <GalleryPage images={Pica} restaurant="🥘 Piccadilly" />
+                <GalleryPage images={ItalianTaste} restaurant="🇮🇹 Italian Taste" />
+                <GalleryPage images={Baked} restaurant="👨‍🍳 Baked" />
                 
               </>
             }
