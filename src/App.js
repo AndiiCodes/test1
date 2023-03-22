@@ -288,7 +288,7 @@ export default function App() {
               <span className="">
                 
                   <h1 className="text-4xl font-bold mb-2 text-center sm:text-left sm:ml-[50px] mt-[50px]  text-white">Gallery 🖼</h1>
-                  <p className="text-xl font-light mb-8 text-center sm:text-left sm:ml-[50px] text-white">View stunning photos on my gallery page. Experience the mouthwatering dishes and cozy ambiance for yourself!</p>
+                  <p className="text-xl font-light mb-8 text-center sm:text-left px-[20px] sm:ml-[50px] text-white">View stunning photos on my gallery page. Experience the mouthwatering dishes and cozy ambiance for yourself!</p>
               </span>
                 <GalleryPage images={Pica} restaurant="🥘 Piccadilly" />
                 <GalleryPage images={ItalianTaste} restaurant="🇮🇹 Italian Taste" />
