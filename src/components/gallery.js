@@ -75,7 +75,7 @@ export default function Gallery() {
         <div className='flex justify-center items-center py-[20px] w-[100%]  '>
 
       <Link to={"/gallery"}>
-      <Button onClick={scrollToTop} className='btn 2xl:text-[5rem] 2xl:w-[10rem] 2xl:h-[4rem] '>
+      <Button onClick={scrollToTop} className='btn 2xl:text-[5rem] 2xl:w-[10rem] 2xl:h-[4rem] hover:scale-105 transition duration-300 '>
       <span className='2xl:text-2xl'>
   
       View More
