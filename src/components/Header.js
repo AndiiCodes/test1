@@ -46,7 +46,7 @@ export default function Header() {
     <Navbar.Link className='txt' href="/Links">
       Links
     </Navbar.Link>
-    <Navbar.Link className='txt block sm:hidden' href="/contact">
+    <Navbar.Link className='txt block sm:hidden hover:scale-105 transition duration-300' href="/contact">
       contact
     </Navbar.Link>
   </Navbar.Collapse>
