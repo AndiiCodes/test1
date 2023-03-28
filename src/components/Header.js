@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <div className='p-[10px]'>
+    <div className='p-[10px] text-black'>
         <Navbar
   fluid={true}
   rounded={true}
