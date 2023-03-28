@@ -8,7 +8,7 @@ export default function Header() {
         <Navbar
   fluid={true}
   rounded={true}
-  className="bg sm:bg-[#241E20]"
+  className="bg sm:bg-[#ffffff]"
 >
   <Navbar.Brand >
     <Link to="/">
