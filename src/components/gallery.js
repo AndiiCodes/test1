@@ -61,9 +61,9 @@ export default function Gallery() {
   
       
         <img className='sm:w-[40%] md:w-[40%] w-[80%] ' data-aos="fade-up-right" data-aos-offset="50"  loading='lazy' src="https://i.ibb.co/GdjGqS9/p.jpg" alt="" />
-        <img className='sm:w-[40%] md:w-[40%] w-[80%]  ' data-aos="fade-up-left" data-aos-offset="100"  loading='lazy' src="https://i.ibb.co/GdjGqS9/p.jpg" alt="" />
-        <img className='sm:w-[40%] md:w-[40%] w-[80%]  ' data-aos="fade-up-right" data-aos-offset="100"  loading='lazy' src="https://i.ibb.co/GdjGqS9/p.jpg" alt="" />
-        <img className='sm:w-[40%] md:w-[40%] w-[80%]  ' data-aos="fade-up-left" data-aos-offset="100"  loading='lazy' src="https://i.ibb.co/GdjGqS9/p.jpg" alt="" />
+        <img className='sm:w-[40%] md:w-[40%] w-[80%]  ' data-aos="fade-up-left" data-aos-offset="100"  loading='lazy' src="https://i.ibb.co/M5dZmrx/img-8-min.jpg" alt="" />
+        <img className='sm:w-[40%] md:w-[40%] w-[80%]  ' data-aos="fade-up-right" data-aos-offset="100"  loading='lazy' src="https://i.ibb.co/RS5LjB3/img-5-min.jpg" alt="" />
+        <img className='sm:w-[40%] md:w-[40%] w-[80%]  ' data-aos="fade-up-left" data-aos-offset="100"  loading='lazy' src="https://i.ibb.co/Y8rXqQp/img-12-min.jpg" alt="" />
         
         
         
