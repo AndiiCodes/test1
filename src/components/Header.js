@@ -13,7 +13,7 @@ export default function Header() {
   <Navbar.Brand >
     <Link to="/">
 
-    <span className="self-center whitespace-nowrap text-xl text-black font-semibold font-['poppins'] dark:text-white">
+    <span className="self-center whitespace-nowrap text-xl text-white font-semibold font-['poppins'] dark:text-white">
       ManooGawra 📸
     </span>
     </Link>
