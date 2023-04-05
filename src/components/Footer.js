@@ -11,7 +11,7 @@ export default function Footer() {
         
         </span>
         
-        <p className='flex items-center justify-center sm:justify-start  text-white bg-[#172d3e]'>
+        <p className='flex items-center justify-center sm:justify-start  text-white bg-[#071A28]'>
         
   <span className=''>Made With</span>
   <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" strokeWidth={1.5} stroke="none" className="w-[15px] mx-[5px] ">
